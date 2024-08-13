@@ -1,0 +1,49 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@iconify-json/mdi": "^1.1.68",
+    "@nuxt/eslint": "^0.5.0",
+    "@nuxt/types": "^2.18.1",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/i18n": "^8.3.3",
+    "@nuxtjs/sitemap": "^6.0.0-beta.1",
+    "@pinia/nuxt": "^0.5.3",
+    "@tailwindcss/forms": "^0.5.7",
+    "eslint-define-config": "^2.1.0",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.2.1",
+    "string-width": "^1.0.2 || 2 || 3 || 4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "latest",
+    "@iconify/json": "latest",
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/robots": "^4.0.2",
+    "@nuxtjs/tailwindcss": "npm:@nuxtjs/tailwindcss@nightly",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.8.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "flowbite": "latest",
+    "less": "^4.2.0",
+    "postcss": "^8.4.41",
+    "sass-embedded": "^1.77.8",
+    "typescript": "^5.5.3"
+  }
+}
